@@ -1,0 +1,36 @@
+@media (min-width: 771px) and (max-width: 1400px) {
+  .fa {
+    visibility: hidden;
+  }
+  header {
+    height: 4em;
+  }
+}
+
+@media (min-width: 7px) and (max-width 770px:) {
+  .portada{
+    background-size: cover;
+    background-position: center;
+    height: 18em;
+  }
+  .menu{
+    visibility: hidden;
+  }
+  .fa{
+    float: right;
+  }
+  header{
+    height: 3.5em;
+  }
+  .titulo{
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  button{
+    text-align: center;
+  }
+  .card{
+    width: 100%;
+  }
+}

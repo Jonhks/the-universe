@@ -1,0 +1,111 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos Header */
+
+
+header{
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.5em;
+  line-height: 230%;
+  color: #fff;
+}
+
+ul, li{
+  text-decoration: none;
+  list-style: none;
+  float: right;
+  margin: 0.5em;
+  color: #fff;
+}
+
+li:hover{
+  color: rgb(220, 208, 208);
+  cursor: pointer;
+}
+
+.fa{
+  font-size: 2em !important;
+  line-height: 190% !important;
+}
+
+/* Estilos seccion contact us */
+
+.portada{
+  background-image: url(../assets/images/astronauta.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  height: 35em;
+}
+
+.info{
+  padding: 2em;
+  word-wrap: break-word; 
+} 
+
+/* Estilos button */
+
+button{
+  background-color: transparent;
+  color: #000;
+  border-radius: 0.5em;
+  padding: 0.6em;
+  margin-top: 10px;
+}
+
+button:hover{
+  background-color: #303131;
+  color: rgb(188, 187, 187);
+}
+
+.titulo{
+  text-align: center;
+  color: #fff;
+  padding-top: 2.5em;
+  font-size: 60px;
+}
+
+.contacto{
+  color: #000;
+  font-size: 16px;
+}
+
+.action {
+	text-align: center;
+	background-color:  #b4b4b8;
+}
+
+/* Estilos seccion descripcion card */
+
+.card, img{
+  width: 100%;
+}
+
+.card{
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.card, button {
+  text-align: center;
+}
+
+/* Estilos Footer */
+
+footer{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  height: 4em;
+  margin-top: 3em;
+}
+
