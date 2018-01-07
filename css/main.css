@@ -34,6 +34,7 @@ li:hover{
 .fa{
   font-size: 2em !important;
   line-height: 190% !important;
+  color: white;
 }
 
 /* Estilos seccion contact us */
