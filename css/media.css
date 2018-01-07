@@ -7,7 +7,7 @@
   }
 }
 
-@media screen and(min-width: 7px) and (max-width 770px:) {
+@media screen and (min-width: 0px) and (max-width:768px) {
   .portada{
     background-size: cover;
     background-position: center;
@@ -31,6 +31,9 @@
     text-align: center;
   }
   .card{
+    width: 100%;
+  }
+  .col-s-12{
     width: 100%;
   }
 }
